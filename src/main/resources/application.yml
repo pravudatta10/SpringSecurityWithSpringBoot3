@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.2.24:1433;databaseName=Reports;encrypt=false;trustServerCertificate=true;
+    username: SUD
+    password: Nichebit@2024
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
